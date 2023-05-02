@@ -1,4 +1,4 @@
-describe('Example Test Suite', () => {
+describe('Homepage Test Suite', () => {
   it('visit the homepage and assert title', () => {
     cy.visit('/');
     cy.title().should('include', 'Your Website Title');
@@ -6,7 +6,7 @@ describe('Example Test Suite', () => {
 
   it('perform a search', () => {
     cy.visit('/');
-    cy.get('input[name="search"]').type('Cypress Testing');
+    cy.get('input[name="search"]').type('Testing');
     cy.get('button[type="submit"]').click();
     cy.url().should('include', '/search');
     cy.get('.search-results').should('have.length.greaterThan', 0);
