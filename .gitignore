@@ -26,18 +26,8 @@ jspm_packages/
 # Output of 'npm pack'
 *.tgz
 
-# Yarn Integrity file
-.yarn-integrity
-
 # dotenv environment variables file
 .env
-
-# macOS
-.DS_Store
-
-# Windows
-Thumbs.db
-ehthumbs.db
 
 # Cache directories
 .cache/
